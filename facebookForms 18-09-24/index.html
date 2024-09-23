@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Facebook</title>
+</head>
+
+<body>
+    <header>
+        <h1>Facebook</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Abra sua conta</h2>
+            <h3>É gratuito e sempre será.</h3>
+        </section>
+        <form action="">
+            <fieldset>
+                <label for="nome">Nome: </label>
+                <input type="text" name="userNome" id="nome" required/>
+
+                <label for="sobrenome">Sobrenome: </label>
+                <input type="text" name="userSobrenome" id="sobrenome"required/>
+
+                <fieldset>
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="userEmail" id="email"required/>
+                </fieldset>
+
+                <fieldset>
+                    <label for="senha">Senha: </label>
+                    <input type="password" name="userSenha" id="senha"required/>
+                </fieldset>
+
+                <fieldset>
+                    <label for="niver">Data de Nascimento: </label>
+                    <input type="date" name="userNiver" id="niver"/>
+                </fieldset>
+
+                <fieldset>
+                    <label for="">Gênero: </label>
+
+                    <input type="radio" name="userGender" id="masculino">
+                    <label for="masculino">Masculino</label>
+
+                    <input type="radio" name="userGender" id="feminino">
+                    <label for="masculino">Feminino</label>
+
+                    <input type="radio" name="userGender" id="naoFalar">
+                    <label for="masculino">Prefiro não dizer</label>
+                </fieldset>
+
+                <fieldset>
+                    <label for="">Selecione as redes sociais que você já usou:</label>
+
+                    <input type="checkbox" name="userTwitter" id="x">
+                    <label for="x">Twitter</label>
+
+                    <input type="checkbox" name="userInsta" id="insta">
+                    <label for="insta">Instagram</label>
+
+                    <input type="checkbox" name="userNone" id="none">
+                    <label for="none">Nenhuma das anteriores</label>
+                </fieldset>
+                <input type="submit" value="Abrir uma conta">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

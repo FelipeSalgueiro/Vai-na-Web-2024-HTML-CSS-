@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga dos Avengers</title>
+</head>
+
+<body>
+    <!--A Header é uma tag que demarca o que faz parte do seu cabeçalho do site. -->
+    <header>
+        <h1>Liga dos Avengers</h1>
+        
+        <!--A Nav é uma tag que demarca links que podem ser do interesse do usuário.-->
+        <nav>
+            <a href="">Sobre</a>
+            <a href="">Personagens</a>
+            <a href="">Cadastro</a>
+        </nav>
+    </header>
+
+    <!--A main é uma tag que demarca as partes principais do seu site.-->
+    <main>
+        <!--A Section é uma tag que demarca uma seção do site, te permitindo organizar partes do seu site, 
+        por exemplo, aqui temos uma seção de introdução para a Liga dos Avengers.-->
+        <section>
+            <h2>Sobre a Liga dos Avengers</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta assumenda rerum aperiam delectus aut. Obcaecati ut nam nihil ratione ipsa.</p>
+            <img src="https://i0.wp.com/wp-content.bluebus.com.br/wp-content/uploads/2016/04/13092400/carreta-furacao.jpg?resize=350%2C200&ssl=1" alt="Imagem com os integrantes da Liga dos Avengers."/>
+        </section>
+        
+        <!--Enquanto isso, essa section irá falar sobre os peronagens individualmente.-->
+        <section>
+            <h2>Alguns dos Personagens</h2>
+            
+            <!--A Article é a tag de Artigo, ela também te ajuda a organizar seu código por artigos, 
+            nesse caso um artigo sobre o Capitão América.-->
+            <article>
+                <img src="" alt="Imagem do Capitão América."/>
+                <h3>Capitão América.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam vitae exercitationem omnis! Placeat corrupti facere expedita accusamus! Numquam, dolore.</p>
+            </article>
+
+            <!--Enquanto isso, essa article irá falar sobre o Fofão. E as outras articles falarão sobre outros personagens.-->
+            <article>
+                <img src="" alt="Imagem do Fofão"/>
+                <h3>Fofão</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatibus doloribus quam atque similique obcaecati porro quis perferendis ipsum accusantium.</p>
+            </article>
+
+            <article>
+                <img src="" alt="Imagem do Mickey"/>
+                <h3>Mickey</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magnam tenetur distinctio amet doloremque consectetur? Harum molestiae officia commodi dolorem.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Meu primeiro formulário</h2>
+            <!--O Form é uma tag de formulário que nos permite adicionar entradas para o usuário do site.-->
+            <form action="">
+                <!--O Fieldset é uma tag que adiciona uma borda ao nosso fomulário.-->
+                <fieldset>
+                        <fieldset>
+                        <!--A Label informa ao usuário qual input deve ser preenchido no campo do formulário.-->
+                        <label for="nome">Nome: </label>
+                        <!--O Input é uma tag onde o usuário preenche com suas informações para enviar a um banco de dados.
+                        Na propriedade Type nós informamos qual o formato do input que o usuário está inserindo.-->
+                        <input type="text" name="UserName" id="nome" placeholder="Digite seu nome">
+
+                        <!--A propriedade for do label e a propriedade id do input são responsáveis por conectar o label ao input, é como se fosse uma chave e um cadeado.-->
+
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="email">E-Mail: </label>
+                        <input type="email" name="EmailUsuario" id="email" placeholder="exemplo@gmail.com">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="senha">Senha: </label>
+                        <input type="password" name="SenhaUsuario" id="senha">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="idade">Idade: </label>
+                        <input type="number" name="IdadeUsuario" id="idade" max="200" min="0" placeholder="0">
+                    </fieldset>
+
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

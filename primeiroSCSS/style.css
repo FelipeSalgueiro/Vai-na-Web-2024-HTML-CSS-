@@ -1,0 +1,37 @@
+h1 {
+  color: rgb(206, 1, 161);
+}
+
+header {
+  background-color: rgb(16, 2, 212);
+  border: solid black 5px;
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 5px;
+  border: solid black 5px;
+}
+
+.linksHeader {
+  color: black;
+}
+
+.hydreigonArti {
+  background-color: purple;
+}
+.hydreigonArti figure {
+  border: solid black 5px;
+  padding: 2px;
+}
+.hydreigonArti figure img {
+  width: 200px;
+}
+
+#navHeader {
+  background-color: rgb(247, 145, 28);
+}
+
+#sassH2 {
+  color: tomato;
+}/*# sourceMappingURL=style.css.map */

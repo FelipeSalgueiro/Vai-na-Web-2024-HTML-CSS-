@@ -1,0 +1,43 @@
+// Seletor de Elemento/Tag - é quando usamos a própria tag como seletor
+h1 {
+    color: rgb(206, 1, 161);
+}
+
+header {
+    background-color: rgb(16, 2, 212);
+    border: solid black 5px;
+    margin-bottom: 20px;
+
+}
+
+main {
+    padding: 5px;
+    border: solid black 5px;
+}
+
+//Seletor de Classe - class ( . )
+.linksHeader {
+    color: black;
+}
+
+.hydreigonArti {
+    background-color: purple;
+
+    figure {
+        border: solid black 5px;
+        padding: 2px;
+
+        img {
+            width: 200px;
+        }
+    }
+}
+
+//Seletor de Id - id ( # )
+#navHeader {
+    background-color: rgb(247, 145, 28);
+}
+
+#sassH2 {
+    color: tomato;
+}

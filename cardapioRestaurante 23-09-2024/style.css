@@ -40,6 +40,44 @@ header .navHeader ul li {
   color: black;
 }
 
-.BigBug {
+main .tituloMain {
+  text-align: center;
+  font-size: 50px;
+  margin: 5px;
+}
+main .bigBug {
+  border: solid black 1px;
+  width: 320px;
+  height: 284px;
+  padding: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+main .bigBug figure {
+  margin: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+main .bigBug figure img {
   width: 200px;
+}
+main .bigBug figure figcaption {
+  text-align: center;
+  font-size: 30px;
+}
+main .bigBug div {
+  display: flex;
+  flex-direction: column;
+}
+main .bigBug div p {
+  color: maroon;
+  font-size: 15px;
+  text-align: center;
+  margin: 5px;
+  margin-top: 34.5px;
+}
+main .bigBug div h3 {
+  color: maroon;
+  font-size: 30px;
+  margin: 0px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "EnchantedLand";
+  src: url("./assets/Enchanted Land.otf") format(opentype);
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  background-color: rgb(9, 50, 236);
+  border-bottom: solid black 1px;
+  height: 70px;
+}
+header h1 {
+  background-color: rgb(245, 164, 13);
+  border: solid black 2px;
+  font-family: "EnchantedLand";
+  font-size: 50px;
+  width: 145px;
+  height: 60px;
+  padding: 5px;
+  display: inline-block;
+  margin: 0px;
+}
+header .navHeader {
+  display: inline-block;
+  width: 425px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 50px;
+}
+header .navHeader ul {
+  margin-top: 10px;
+}
+header .navHeader ul li {
+  border: solid black 2px;
+  display: inline;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: rgb(245, 164, 13);
+  color: black;
+}
+
+.BigBug {
+  width: 200px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,9 +1,12 @@
-//
 @font-face {
     font-family: 'EnchantedLand';
     src: url('./assets/Enchanted\ Land.otf') format(opentype);
     font-weight: normal;
     font-style: normal;
+}
+
+* {
+    margin: 0px;
 }
 
 header {
@@ -46,53 +49,66 @@ header {
 }
 
 main {
+    padding: 5px;
+
     .tituloMain {
         text-align: center;
         font-size: 50px;
         margin: 5px;
     }
 
-    .bigBug {
-        border: solid black 1px;
-        width: 320px;
-        height: 284px;
-        padding: 5px;
+    .cardapioLanches {
         display: flex;
-        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 5px;
+        align-items: center;
 
-        figure {
-            margin: 0px;
-            display: flex;
-            flex-direction: column-reverse;
-
-            img {
-            width: 200px;
-            }
-
-            figcaption {
-                text-align: center;
-                font-size: 30px;
-            }
-        }
-
-        div {
+        .lancheDisplay {
+            border: solid black 2px;
+            width: 320px;
+            height: auto;
+            padding: 0px 5px 5px 5px;
             display: flex;
             flex-direction: column;
-
-            p {
-                color: maroon;
-                font-size: 15px;
-                text-align: center;
-                margin: 5px;
-
-                //Margin provisório: 
-                margin-top: 34.5px;
-            }
+            align-items: center;
+            background-color: rgb(245, 164, 13);
 
             h3 {
-                color: maroon;
+                text-align: center;
                 font-size: 30px;
-                margin: 0px;
+                margin: 0px 0px 3px 0px;
+            }
+            
+            figure {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                img {
+                    width: 200px;
+                    margin: 0px;
+                }
+
+                div {
+                    background-color: rgb(243, 187, 82);
+                    border: solid black 1px;
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 5px;
+
+                    h4 {
+                        font-size: 30px;
+                        text-align: center;
+                        margin: 0px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        text-align: left;
+                        margin: 5px;
+                    }
+                }
             }
         }
     }

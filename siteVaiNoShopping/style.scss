@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+
+    header {
+        border: solid red 5px;
+        background-color: tomato;
+        height: 90px;
+        padding-top: 20px;
+        padding-left: 50px;
+
+    }
+    article {
+        border: solid blue 5px;
+
+        /*margin-top: 50px;
+        margin-right: 35px;
+        margin-left: 65px;*/
+        margin: 50px 35px 0px 65px;
+
+        figure {
+            border: solid green 5px;
+            //(top-bottom) (left-right)
+            margin: 10px 5px;
+
+            img {
+                width:150px;
+
+
+            }
+        }
+    }
+}

@@ -4,6 +4,10 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  margin: 0px;
+}
+
 header {
   background-color: rgb(9, 50, 236);
   border-bottom: solid black 1px;
@@ -40,44 +44,59 @@ header .navHeader ul li {
   color: black;
 }
 
+main {
+  padding: 5px;
+}
 main .tituloMain {
   text-align: center;
   font-size: 50px;
   margin: 5px;
 }
-main .bigBug {
-  border: solid black 1px;
+main .cardapioLanches {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+main .cardapioLanches .lancheDisplay {
+  border: solid black 2px;
   width: 320px;
-  height: 284px;
-  padding: 5px;
-  display: flex;
-  align-items: flex-start;
-}
-main .bigBug figure {
-  margin: 0px;
-  display: flex;
-  flex-direction: column-reverse;
-}
-main .bigBug figure img {
-  width: 200px;
-}
-main .bigBug figure figcaption {
-  text-align: center;
-  font-size: 30px;
-}
-main .bigBug div {
+  height: auto;
+  padding: 0px 5px 5px 5px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: rgb(245, 164, 13);
 }
-main .bigBug div p {
-  color: maroon;
-  font-size: 15px;
+main .cardapioLanches .lancheDisplay h3 {
   text-align: center;
-  margin: 5px;
-  margin-top: 34.5px;
-}
-main .bigBug div h3 {
-  color: maroon;
   font-size: 30px;
+  margin: 0px 0px 3px 0px;
+}
+main .cardapioLanches .lancheDisplay figure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .cardapioLanches .lancheDisplay figure img {
+  width: 200px;
   margin: 0px;
+}
+main .cardapioLanches .lancheDisplay figure div {
+  background-color: rgb(243, 187, 82);
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+main .cardapioLanches .lancheDisplay figure div h4 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+}
+main .cardapioLanches .lancheDisplay figure div p {
+  font-size: 15px;
+  text-align: left;
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */

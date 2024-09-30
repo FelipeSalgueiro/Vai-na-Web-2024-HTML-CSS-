@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.explicacaoBoxSizing {
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    border: solid green 30px;
+    padding: 20px;
+}
+
+.exemploElementoBlock {
+    border: solid 5px red;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.exemploElementoInline {
+    border: solid 5px blue;
+}
+
+.exemploDisplayInlineBlock {
+    h2 {
+        border: solid red 5px;
+        background-color: green;
+        display: inline-block;
+    }
+}
+
+.exemploRGB {
+    //os valores vão de 0 a 255
+    background-color: rgb(50, 125, 76);
+}
+
+.exemploHexadecimal {
+    //0 a 9 e A ao F - Máximo de caracteres é 6
+    background-color: #4f83de;
+}

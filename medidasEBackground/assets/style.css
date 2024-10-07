@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  color: tomato;
+  height: 10vh;
+  text-align: center;
+  padding-top: 2vh;
+}
+
+section {
+  background-image: url(taChovendoRatatoille.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: tomato;
+  height: 90vh;
+  width: 50vw;
+}
+
+article {
+  border: solid blue 6px;
+  width: 50%;
+}
+
+h2 {
+  border: solid yellow 5px;
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */

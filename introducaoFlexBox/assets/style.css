@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  border: solid red;
+  height: 16vh;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+li {
+  background-color: tomato;
+}
+
+main {
+  border: solid pink 5px;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 30vw;
+}/*# sourceMappingURL=style.css.map */

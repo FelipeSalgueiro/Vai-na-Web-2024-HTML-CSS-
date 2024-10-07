@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    display: flex;
+    border: solid red;
+    height: 16vh;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    //flex-direction: column;
+    //align-items: center;
+}
+li {
+    background-color: tomato;
+}
+main {
+    border: solid pink 5px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 30vw;
+}
+// display:flex; -> ele é mais uma das propriedades
+// de posicionamento e espaçamento  do CSS
+// junto a ele nós ganhamos uma quantidade muito grande
+// de propriedades e valores de espaçamento de forma
+// totalmente flexível, sem ocorrer o risco de quebrar
+// nossa página.
